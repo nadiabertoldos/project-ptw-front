@@ -1,0 +1,15 @@
+#menu a{
+	color: black;
+	font-family: 'Anton', sans-serif;
+}
+#card1, #card2{
+	float: right;
+	margin: 5% 10% 1% 5%;
+	clear: both; 
+}
+#texto{
+	padding: 5%;
+}
+#texto h2{
+	padding-bottom: 1%;
+}

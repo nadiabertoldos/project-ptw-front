@@ -1,0 +1,50 @@
+#menu a{
+	color: black;
+	font-family: 'Anton', sans-serif;
+}
+#imagem{
+	background-image: url(img/3.png);
+	min-height: 500px;
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+#direita{
+	width: 25%;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 3%;
+}
+#meio{
+	width: 25%;
+	float: right;
+	margin-right: 7.50%;
+	margin-bottom: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 3%;
+}
+#esquerda{
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 3%;
+}
+#direita h2, #meio h2, #esquerda h2{
+	padding: 1%;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+#direita p, #meio p, #esquerda p{
+	text-align: justify;
+}
+#caixa1 h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 150%;
+	padding: 1%;
+}
+#caixa1 p{
+	font-size: 110%;
+}
