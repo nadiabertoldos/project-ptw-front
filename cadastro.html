@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Papa To World</title>
+	<meta charset="utf-8">
+	<meta name="description" content="O projeto 'Papa To World' tem como objetivo ajudar a suprir a fome de pessoas carente, contando com a sua ajuda para isso."/>
+	<meta name="reating" content="general"/>
+	<meta name="keywords" content="ONG, caridade, comida."/>
+	<link rel="icon" type="image/png" href="img/logo.png"/> 
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="cadastrocss.css">
+</head>
+
+<body>
+	<header>
+		<a href="inicio2.html"><img id="logo" src="img/logo1.png"></a>
+		<div id="menu">	
+			<ul>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="aplicativo.html">Aplicativo</a></li>
+				<li><a href="cadastro.html">Doe Agora</a></li>
+				<li><a href="inicio2.html">Início</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<form id="caixa1" class="shadow p-3 mb-5 bg-white rounded" action="relatorios.html">
+		<div id="direita">
+			<img src="img/logo.png">
+			<p>Já tem uma conta?</p>	
+			<button id="login"><a href="login.html">ENTRAR</a></button>		
+		</div>
+
+		<div id="esquerda">
+			<p>Torne-se um doador agora!</p>
+			<div class="form-group">
+				<label for="inputNome"><img src="img/icons8-nome-50.png" style="width: 12%;">Nome completo</label>
+				<input type="text" class="form-control" id="inputNome" placeholder="Nome completo">
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputEmail4"><img src="img/icons8-nova-mensagem-50.png" style="width: 19%;">E-mail</label>
+					<input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputPassword4"><img src="img/icons8-esqueci-a-senha-50.png" style="width: 19%;">Senha</label>
+					<input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inputEndereco"><img src="img/icons8-casa-50.png" style="width: 18%;">Endereço</label>
+				<input type="text" class="form-control" id="inputEndereco" placeholder="Rua, Nº - Bairro">
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputCidade"><img src="img/icons8-edifícios-da-cidade-50.png" style="width: 20%;">Cidade</label>
+					<input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+				</div>
+				<div class="form-group col-md-4">
+					<label for="inputEstado"><img src="img/icons8-endereço-50.png" style="width: 20%;">Estado</label>
+					<select id="inputEstado" class="form-control">
+						<option selected>Escolher...</option>
+						<option>Acre</option>
+						<option>Alagoas </option>
+						<option>Amapá </option>
+						<option>Amazonas </option>
+						<option>Bahia </option>
+						<option>Ceará </option>
+						<option>Distrito Federal </option>
+						<option>Espírito Santo </option>
+						<option>Goiás </option>
+						<option>Maranhão </option>
+						<option>Mato Grosso </option>
+						<option>Mato Grosso do Sul </option>
+						<option>Minas Gerais </option>
+						<option>Pará </option>
+						<option>Paraíba </option>
+						<option>Paraná </option>
+						<option>Pernambuco </option>
+						<option>Piauí </option>
+						<option>Rio de Janeiro </option>
+						<option>Rio Grande do Norte</option>
+						<option>Rio Grande do Sul </option>
+						<option>Rondônia </option>
+						<option>Roraima </option>
+						<option>Santa Catarina </option>
+						<option>São Paulo </option>
+						<option>Sergipe </option>
+						<option>Tocantins</option>
+					</select>
+				</div>	
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputRG"><img src="img/icons8-cartão-de-identificação-50.png" style="width: 28%;">RG</label>
+					<input type="text" class="form-control" id="inputRG" placeholder="0000000-X">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputCPF"><img src="img/icons8-cartão-de-identificação-50.png" style="width: 26%;">CPF</label>
+					<input type="text" class="form-control" id="inputCPF" placeholder="000000000/00">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputNascimento"><img src="img/icons8-data-de-nascimento-50.png" style="width: 10%;">Data de Nascimento</label>
+					<input type="date" class="form-control" id="inputNascimento" placeholder="00/00/0000">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputTel"><img src="img/icons8-telefone-50.png" style="width: 19%;">Telefone</label>
+					<input type="text" class="form-control" id="inputTel" placeholder="(xx) 0000-0000">
+				</div>
+			</div>
+			<button id="enviar" type="submit" class="btn btn-primary">Enviar</button>
+		</div>
+	</form>
+
+	<footer id="footer">
+		<div id="lista">
+			<h5>Informações</h5>
+			<ul>
+				<li><a href="faleconosco.html"><img src="img/chevron-right.png">Fale conosco</a></li>
+				<li><a href="inicio2.html"><img src="img/chevron-right.png">Quem somos</a></li>
+				<li><a href="login.html"><img src="img/chevron-right.png">Login</a></li>
+			</ul>
+		</div>
+
+		<div id="icons"> 
+			<a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Icon Facebook"></a>
+			<a href="https://twitter.com/?lang=pt"><img src="img/twitter.png" alt="Icon Twitter"></a>
+			<a href="https://www.instagram.com/?hl=pt-br"><img src="img/instagram.png" alt="Icon Instagram"></a>
+		</div>
+		<hr>
+		<div id="ident">
+			<p>Copyright ©2019</p>
+		</div>	
+	</footer>
+</body>
+</html>

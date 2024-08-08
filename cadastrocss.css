@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+header{
+	height: 70px;
+	background-color:  white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 1px solid #dddbdb;
+}
+#logo{
+	float: left;
+	width: 25%;
+	margin-left: 100px;
+	margin-top: 13px;
+}
+#menu{
+	margin-right: 100px;
+}
+#menu ul{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+#menu li{
+	float: right;
+}
+#menu li a{
+	color: #007C7E;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family:'Bree Serif', serif; 
+	padding: 23px;
+}
+#menu li a:hover{
+	background-color: #edbf53;
+	color: white;
+	transition-duration: 0.2s;
+}
+#direita{
+	width: 35%;
+	float: left;
+	background-color: #007C7E;
+	height: 650px;
+}
+#direita img{
+	width: 60%;
+	margin-top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#direita p{
+	color: white;
+	text-align: center;
+	font-family: 'Bree Serif';
+	font-size: 140%;
+	padding-top: 4%;
+}
+#login{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	padding: 3%;
+	background-color: #007C7E;
+	border: 2px solid white;
+	border-radius: 5px;
+	pointer-events: painted;
+}
+#login a{
+	color: white;
+	font-family:'Bree Serif', serif;
+	text-decoration: none;
+	font-size: 90%;
+}
+#esquerda{
+	width: 65%;
+	float: right;
+	padding: 3%;
+}
+#esquerda p{
+	text-align: center;
+	font-family: 'Bree Serif';
+	font-size: 140%;
+}
+#esquerda label img{
+	margin-right: 1%; 
+}
+#caixa1{
+	background-color: white;
+	margin: 3% auto 3% auto;
+	display: block;
+	width: 70%;
+	padding: 5%;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	clear: both;
+	height: 680px;
+}
+#inputEstado{
+	width: 152%;
+}
+#enviar {
+	background-color: #edbf53;
+	border: none;
+	padding: 2%;
+	font-size: 100%; 
+	width: 17%;
+	font-family:'Bree Serif', serif;
+	color: white;
+	border-radius: 5px;
+	pointer-events: painted;
+}
+#enviar:hover{
+	background-color: #edb023;
+}
+#footer {
+	background-color: rgba(75, 83, 91, 0.2);
+	height: 340px;
+	clear: both;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-top: 5%;
+}
+#lista{
+	float: left;
+	padding-top: 5%;
+}
+#lista h5{
+	padding-left: 10px;
+	border-left: 3px solid white;
+	padding-bottom: 6px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #474545;
+	font-family: 'Bree serif'
+}
+#lista ul{
+	list-style-type: none;
+	margin-bottom: 40%;
+}
+#lista ul li a{
+	color: #474545;
+	text-decoration: none;
+}
+#lista ul li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#lista ul li:hover{
+	padding: 3px 0;
+	margin-left: 8px;
+	font-weight: 700;
+}
+#icons img{
+	float: right;
+	width: 5%;
+	margin-top: 10%;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	margin-right: 5%;
+}
+#icons img:hover{
+	width: 5.60%;
+}
+hr{
+	clear: both;
+}
+#ident p{
+	text-align: center;
+	color: black;
+}
+
+

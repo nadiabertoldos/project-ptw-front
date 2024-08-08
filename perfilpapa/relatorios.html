@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="PT-BR">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="imagens/logo.png" sizes="32x32">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Relatórios</title>
+
+  <!-- Principal CSS do Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href="dashboard.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Css EXTERNO-->
+  <link rel="stylesheet" type="text/css" href="sistema.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top flex-md-nowrap p-0 shadow" style="background-color:rgba(0, 124, 126, 0.9);">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#" style="color:#edbf53; font-family: 'Bree Serif', serif;">Papa To World</a>
+    <!--<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">-->
+    <ul class="navbar-nav px-3" style="background-color: rgba(0, 124, 126, 0.5);">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="login.html" style="color:#edbf53; font-family: 'Bree Serif', serif">Sair</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+
+  <div class="container-fluid">
+    <div class="row" id="lista">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky" >
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="perfilpapa.html" style="color:#273747;">
+                <span data-feather="user"></span>
+                Doe Agora
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:#273747;">
+                <span data-feather="shopping-cart"></span>
+                Alimentos Doados
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="relatorios.html" style="color:#273747;">
+                <span data-feather="bar-chart-2"></span>
+                Relatórios<span class="sr-only">(atual)</span>
+              </a>
+            </li>
+          </ul>
+
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            <span>Relatórios salvos</span>
+            <a class="d-flex align-items-center text-muted" href="#">
+              <span data-feather="plus-circle"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:#273747;">
+                <span data-feather="file-text"></span>
+                Neste mês
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:#273747;">
+                <span data-feather="file-text"></span>
+                Último trimestre
+              </a>
+            </li>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Sistema de Pontuação</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary">Compartilhar</button>
+                <button class="btn btn-sm btn-outline-secondary">Exportar</button>
+              </div>
+              <div>
+                <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                  <span data-feather="calendar"></span>
+                  Esta semana
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+
+          <h2>Pontos por alimentos</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Horário da manhã</th>
+                  <th>Horário da noite</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>10</td>
+                  <td>Pão</td>
+                  <td>Margarina ou Manteiga;</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>Margarina ou Manteiga</td>
+                  <td>Leite líquido ou em pó</td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>Requeijão</td>
+                  <td>Cereais</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Barras de Cereais</td>
+                  <td>Café Solúvel</td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>Biscoitos recheados ou sem recheio</td>
+                  <td>Frutas industrializadas</td>
+                </tr>
+                <td>10</td>
+                <td>Margarina ou Manteiga</td>
+                <td>Pão</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Leite líquido ou em pó</td>
+                <td>Margarina ou Manteiga</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>Cereais</td>
+                <td>Requeijão</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>Café Solúvel</td>
+                <td>Barras de Cereais</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>Frutas industrializadas</td>
+                <td>Biscoitos recheados ou sem recheio</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+  <footer id="footer">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+    <!-- Ícones -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+    <!-- Gráficos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"],
+          datasets: [{
+            data: [10, 30, 25, 30, 60, 85, 25],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007c7e',
+            borderWidth: 4,
+            pointBackgroundColor: '#007c7e'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
+    <div id="lista2">
+      <h5>Informações</h5>
+      <ul>
+        <li><a href="#"><img src="imagens/chevron-right.png">Fale conosco</a></li>
+        <li><a href="#"><img src="imagens/chevron-right.png">Quem somos</a></li>
+        <li><a href="login.html"><img src="imagens/chevron-right.png">Login</a></li>
+      </ul>
+    </div>
+    <div id="icons"> 
+      <a href="https://www.facebook.com/"><img src="imagens/facebook.png" alt="Icon Facebook"></a>
+      <a href="https://twitter.com/?lang=pt"><img src="imagens/twitter.png" alt="Icon Twitter"></a>
+      <a href="https://www.instagram.com/?hl=pt-br"><img src="imagens/instagram.png" alt="Icon Instagram"></a>
+    </div>
+    <hr>
+    <div id="ident">
+      <p>Copyright ©2019</p>
+    </div>  
+  </footer>
+</body>
+</html>

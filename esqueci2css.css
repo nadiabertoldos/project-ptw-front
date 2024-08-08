@@ -1,0 +1,74 @@
+body{
+	background-color: white;
+}
+header{
+	height: 70px;
+	background-color:  white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 1px solid #dddbdb;
+}
+#logo{
+	float: left;
+	width: 25%;
+	margin-left: 100px;
+	margin-top: 13px;
+}
+#menu{
+	margin-right: 100px;
+}
+#menu ul{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+#menu li{
+	float: right;
+}
+#menu li a{
+	color: #007C7E;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family:'Bree Serif', serif; 
+	padding: 23px;
+}
+#menu li a:hover{
+	background-color: #edbf53;
+	color: white;
+	transition-duration: 0.2s;
+}
+#dados{
+	width: 35%;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	padding: 3%;
+}
+#dados button{
+	background-color: #edbf53;
+	border: none;
+	padding: 3%;
+	border-radius: 5px;
+	font-size: 100%; 
+	width: 30%;
+	font-family:'Bree Serif', serif;
+	color: white;
+	pointer-events: painted;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#dados button a{
+	text-decoration: none;
+	color: white;
+}
+#dados button:hover{
+	background-color: #edb023;
+}

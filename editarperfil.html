@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="imagens/logo.png" sizes="32x32">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Papa To World</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!-- Css EXTERNO-->
+    <link rel="stylesheet" type="text/css" href="editarperfil.css">
+</head>
+
+<body>
+  <div id="principal">
+    <nav class="navbar navbar-expand-lg navbar-dark " id="menu"> 
+      <div class="container">
+        <a class="navbar-brand h1 mb-0" style="font-size: 170%;" href="relatorios.html">PAPA TO WORLD</a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Perfil</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#" style="color:black; font-family: arial;">
+              <span data-feather="settings"></span>
+              Editar infomações
+          </a>
+          <a href="relatorios.html" style="color:black; font-family: arial;">
+              <span data-feather="bar-chart-2"></span>
+              Relatórios
+          </a>
+          <a href="inicio2.html" style="color:black; font-family: arial;">
+              <span data-feather="log-out"></span>
+              Sair
+          </a>
+      </div>
+  </div>
+</div>
+</nav>
+<div id="dados">
+  <h3 style="padding: 1%;  font-size: 35px;   color:#007c7e;  font-family: 'Bree Serif', serif;  text-align: center;">Dados Pessoais</h3>
+  <div class="form-group col-md-12">
+    <label for="inputAddress"> <img src="imagens/icons8-nome-50.png" width="20x20"> Nome completo</label>
+    <input type="text" class="form-control" id="inputname" placeholder="Juscelino Kubitschek" >
+</div>
+<div class="form-group col-lg-6" style="float: left; ">
+    <label for="inputEmail4"><img src="imagens/icons8-nova-mensagem-50.png"  width="20x20">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="emailficticio@gmail.com" >
+</div>
+<div class="form-group col-md-6" style="float: right;">
+    <label for="inputPassword4"><img src="imagens/icons8-esqueci-a-senha-50.png"  width="20x20">Senha</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="00000000" >
+</div>
+<div class="form-group col-lg-6" style="float: left; ">
+    <label for="inputEmail4"><img src="imagens/icons8-cartão-de-identificação-50.png"  width="20x20">RG</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="35455864-x"  >
+</div>
+<div class="form-group col-md-6" style="float: right;">
+    <label for="inputPassword4"><img src="imagens/icons8-cartão-de-identificação-50.png"  width="20x20">CPF</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="089.777.150-00" >
+</div>
+<div class="form-group col-md-12" style="clear: both;">
+    <label for="inputAddress"><img src="imagens/icons8-casa-50.png"  width="20x20">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="R. Guarani, 735" >
+</div>
+<div class="form-group col-md-6" style="float: left;">
+    <label for="inputCity"> <img src="imagens/icons8-casa-50.png"  width="20x20">Cidade</label>
+    <input type="text" class="form-control" id="inputCity" placeholder="Diadema" >
+</div>
+<div class="form-group col-md-6" style="float:left; ;">
+    <label for="inputEstado"><img src="imagens/icons8-endereço-50.png"  width="20x20"> Estado</label>
+    <select id="inputEstado" class="form-control" >
+      <option>AC</option>
+      <option>AL</option>
+      <option>AP</option>
+      <option>AM</option>
+      <option>BA</option> 
+      <option>CE</option> 
+      <option>DF</option>  
+      <option>ES</option> 
+      <option>GO</option>
+      <option>MA</option>
+      <option>MT</option>
+      <option>MS</option>
+      <option>MG</option>
+      <option>PA</option>
+      <option>PB</option>
+      <option>PR</option>
+      <option>PE</option> 
+      <option>PI</option> 
+      <option>RJ</option>  
+      <option>RN</option> 
+      <option>RS</option>
+      <option>RO</option>
+      <option>RR</option>
+      <option>SC</option>
+      <option selected>SP</option>
+      <option>SE</option>
+      <option>TO</option>
+  </select>
+</div>
+<div class="form-group col-md-6" style="float:right;">
+    <label for="inputEstado"><img src="imagens/icons8-telefone-50.png"  width="20x20"> Telefone</label>
+    <input id="inputEstado" class="form-control" placeholder="(011) 4002-8922">
+</div>
+<div class="form-group col-md-6" style="float:left;">
+    <label for="inputCity"> <img src="imagens/icons8-data-de-nascimento-50.png"  width="20x20">Data de Nascimento</label>
+    <input type="text" class="form-control" id="inputCity" placeholder="03/04/1995" >
+</div>
+<div id="a" style="clear: both;">
+    <submit id="button"><a href="perfilpapa.html" class="btn btn-black btn-sm btn-block center-block" id="btn-edit-profile" style="text-decoration: none; color:white;">Salvar alterações</a></submit>
+</div>
+</div>
+</div>
+<footer id="footer">
+  <script type="text/javascript" src="javaperfil.js"></script>
+  <!-- Ícones -->
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script>
+      feather.replace()
+  </script>
+</footer>
+</body>
+</html>

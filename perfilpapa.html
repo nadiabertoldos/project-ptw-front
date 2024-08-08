@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagens/logo.png" sizes="32x32">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Papa To World</title>
+	<!-- Principal CSS do Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--css EXTERNO-->
+	<link rel="stylesheet" type="text/css" href="perfil.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark " id="menu"> 
+		<div class="container">
+			<a class="navbar-brand h1 mb-0" style="font-size: 170%;" href="relatorios.html">PAPA TO WORLD</a>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Perfil</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="editarperfil.html" style="color:black; font-family: arial;">
+						<span data-feather="settings"></span>
+						Editar infomações
+					</a>
+					<a href="relatorios.html" style="color:black; font-family: arial;">
+						<span data-feather="bar-chart-2"></span>
+						Relatórios
+					</a>
+					<a href="login.html" style="color:black; font-family: arial;">
+						<span data-feather="log-out"></span>
+						Sair
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div id="principal">
+		<div class="doar" id="box1" style="transition: 4s;">
+			<br>
+			<div id="conteudo1">
+				<h1>VAMOS COMEÇAR?</h1> 
+			</div>
+			<a href="#box2"  id="a" style="text-decoration: none; color:white">
+				<div id="button">
+					Ok 
+				</div>
+			</a>
+		</div>
+		<div class="doar" id="box2">
+			<div id="conteudo2">
+				<h2>Selecione o horário...</h2>
+			</div>
+			<div class="horario">
+				<div id="manha">
+					<a href="#box3" id="b"><img src="imagens/dia.jpg"></a>
+				</div>
+				<div id="noite">
+					<a href="#box3"  id="c"><img src="imagens/noite.jpg"></a>          
+				</div>
+				<div id="rodape">
+					<div id="manha">
+						<h3 style="text-align: center;">MANHÃ</h3>
+					</div>
+					<div id="noite">
+						<h3 style="text-align: center;">NOITE</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="doar" id="box3">
+			<div id="conteudo3">
+				<h2>Selecione os alimentos...</h2>
+			</div>
+			<div id="alimentos">
+				<div class="row">
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/bread.png" alt="Pão" style="width:25%">
+								<p>Pão</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/French Press.png" alt="Suco" style="width:25%">
+								<p>Sucos</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/asparagus.png" alt="Legumes" style="width:25%">
+								<p>Legumes</p>
+							</label>
+						</fieldset>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/porridge.png" alt="Cereais" style="width:25%">
+								<p>Cereais</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/barra.png" alt="Barras de cereais" style="width:25%">
+								<p>Barra de cereais</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/Cookies.png" alt="Biscoito" style="width:25%">
+								<p>Biscoito</p>
+							</label>
+						</fieldset>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/Milk.png" alt="Leite" style="width:25%">
+								<p>Leite</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/Cafe.png" alt="Café" style="width:25%">
+								<p>Café</p>
+							</label>
+						</fieldset>
+					</div>
+					<div class="column" align="center">
+						<fieldset class="check-image">
+							<label for="like">
+								<input type="checkbox" name="like" id="like">
+								<img src="imagens/apple.png" alt="Frutas" style="width:25%">
+								<p>Frutas</p>
+							</label>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+			<a href="#box4" id="d" style="text-decoration: none; color: white;">
+				<div id="button">
+					Ok 
+				</div>
+			</a>
+		</div>
+		<div class="doar" id="box4" style="margin-bottom: 5%;">
+			<div id="conteudo4">
+				<h2>Seus dados estão corretos?</h2>
+			</div>
+			<div id="dados">
+				<div class="form-group col-md-6" style="float: left; ">
+					<label for="inputAddress">Nome completo</label>
+					<input type="text" class="form-control" id="inputname" placeholder="Juscelino Kubitschek." disabled="disabled">
+				</div>
+				<div class="form-group col-md-6" style="float: right;" >
+					<label for="inputPassword4">CPF</label>
+					<input type="password" class="form-control" id="inputPassword4" placeholder="089.777.150-00" disabled="disabled">
+				</div>
+				<div class="form-group col-md-12" >
+					<label for="inputAddress">Endereço</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="R. Guarani, 735 - Conceição, Diadema - SP" disabled="disabled">
+				</div>
+			</div>
+			<a href="confirmacao.html" style="text-decoration: none; color:white">
+				<div id="button" style="float: right; margin-right: 150px; margin-left: 50px;">
+					Ok 
+				</div>
+			</a>
+			<a href="editarperfil.html" style="text-decoration: none; color:white">
+				<div id="button" style="float: left; margin-left: 150px; margin-right: 50px;">
+					Editar
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+<footer>
+	<hr>
+	<p style="text-align: center; color:black;">Copyright ©2019</p>
+	<script type="text/javascript" src="javaperfil.js"></script>
+	<script type="text/javascript" src="doar.js"></script>
+	<script type="text/javascript" src="b.js"></script>
+	<script type="text/javascript" src="c.js"></script>
+	<script type="text/javascript" src="d.js"></script>
+	<!-- Ícones--> 
+	<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+	<script>
+		feather.replace()
+	</script>
+</footer>
+</html>

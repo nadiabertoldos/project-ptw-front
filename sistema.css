@@ -1,0 +1,117 @@
+
+hr{
+	clear: both;
+}
+#menu{
+	background-color: #007c7e;
+}
+#menu a {
+	font-family: Bree serif;
+	color: #edbf53;
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: #007c7e;
+	color: #edbf53;
+	padding: 16px;
+	font-family: Bree serif;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+	border: none;
+	background-color: rgba(0,124,126,0.9);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;} 
+#box4{
+	margin-top:200px;
+}
+#footer {
+  clear: both;
+  background-color: rgba(75, 83, 91, 0.2);
+  height: 335px;
+  clear: both;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 15px;
+}
+#lista2{
+	float: left;
+	padding-top: 5%;
+}
+#lista2 h5{
+	padding-left: 10px;
+  border-left: 3px solid white;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #474545;
+  font-family: 'Bree serif'
+}
+#lista2 ul{
+	list-style-type: none;
+	margin-bottom: 40%;
+}
+#lista2 ul li a{
+  color: #474545;
+  text-decoration: none;
+}
+#lista2 ul li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#lista2 ul li:hover{
+	padding: 3px 0;
+	margin-left: 8px;
+	font-weight: 700;
+}
+#icons img{
+	float: right;
+	width: 5%;
+	margin-top: 10%;;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	margin-right: 5%;
+}
+#icons img:hover{
+	width: 5.60%;
+}
+#ident p{
+	text-align: center;
+	color: black;
+}

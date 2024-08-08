@@ -1,0 +1,351 @@
+body{
+	background-color: white;
+}
+header{
+	height: 70px;
+	background-color:  white;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 1px solid #dddbdb;
+}
+#logo{
+	float: left;
+	width: 25%;
+	margin-left: 100px;
+	margin-top: 13px;
+}
+#menu{
+	margin-right: 100px;
+}
+#menu ul{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+}
+#menu li{
+	float: right;
+}
+#menu li a{
+	color: #007C7E;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-family:'Bree Serif', serif; 
+	padding: 23px;
+}
+#menu li a:hover{
+	background-color: #edbf53;
+	color: white;
+	transition-duration: 0.2s;
+}
+#inicio{
+	background-image: url(img/inicio.jpg);
+	min-height: 500px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#estatisticas{
+	height: 100px;
+	background-image: linear-gradient(to right, #007c7e, #007c7e, #0ec1af
+		);
+	color: 
+}
+#p1{
+	float: left;
+	width: 25%;
+	text-align: justify;
+	padding: 14px;
+	font-size: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#p1 img{
+	float: left;
+	padding: 4%;
+	margin-right: 1%;
+}
+#p2{
+	float: left;
+	width: 25%;
+	text-align: justify;
+	padding: 0.70%;
+	font-size: 95%;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+#p2 img{
+	float: left;
+	padding: 4%;
+	margin-right: 1%;
+	width: 20%;
+}
+#p3{
+	float: right;
+	width: 25%;
+	text-align: justify;
+	padding: 0.70%;
+	font-size: 95%;
+	margin-left: 2%;
+	margin-right: 5%;
+}
+#p3 img{
+	float: left;
+	padding: 4%;
+	margin-right: 1%;
+	width: 20%;
+}
+#caixa{
+	margin-top: 5%;
+	float: right;
+	width: 65%;
+}
+#caixa h2{
+	text-align: center;
+	font-family: 'Bree Serif';
+	color: #007c7e;
+	padding-bottom: 1%;
+}
+#caixa p{
+	text-align: justify;
+	width: 95%;
+}
+#caixa3{
+	margin-bottom: 10%;
+	height: 300px;
+}
+#est{
+	float: left; 
+	width: 30%;
+	margin-top: 6%;
+	padding: 1%;
+	margin-left: 4%;
+}
+#polaroid1 {
+	width: 90%;
+	background-color: white;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); 
+	padding: 2%;
+	margin-bottom: 7%;
+	height: 115px;
+}
+#polaroid1 img{
+	float: left;
+}
+#container1{
+	float: right;
+	width: 70%;
+	padding: 3%;
+}
+#polaroid2 {
+	width: 90%;
+	background-color: white;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+	padding: 2%;
+	margin-bottom: 7%;
+	height: 160px;
+}
+#polaroid2 img{
+	float: left;
+}
+#container2{
+	float: right;
+	width: 70%;
+	padding: 2%;
+}
+#caixa2{
+	background-image: linear-gradient(to right, #007c7e, #007c7e, #0ec1af
+		);
+	clear: both;
+	margin-top: 7%;
+	padding: 80px 300px 80px 300px;
+	border-top: 9px solid #edbf53;
+	text-align: center;
+}
+#caixa2 h2{
+	font-family: 'Bree Serif';
+	font-size: 200%;
+	text-align: center;
+	margin: 1%;
+	color: white;
+}
+#caixa2 p{
+	text-align: center;
+	color: white;
+	text-align: center;
+	margin: 5% auto 6% auto;
+	font-size: 100%;
+}
+#caixa2 a{
+	background-color: #edbf53;
+	padding: 1.50% 3% 1.50% 3%;
+	border-radius: 5px;
+	font-size: 100%; 
+	font-family:'Bree Serif', serif;
+	color: white;
+	pointer-events: painted;
+	text-decoration: none;
+	text-align: center;
+}
+#caixa2 a:hover{
+	background-color: #edb023;
+}
+#box img{
+	padding-right: 3%;
+	width: 20%;
+}
+#como{
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding: 1%;
+	clear: both;
+	margin-top: 3.40%;
+}
+#como h2{
+	margin-top: 4.50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: both;
+	color: #007C7E;
+	font-family: 'Bree Serif', serif;
+	font-size: 200%;
+}
+#como p{
+	margin-left: 9%;
+	margin-right: 9%;
+	text-align: justify;
+	font-size: 100%;
+	text-indent: 1%;
+	padding: 2%;
+	font-family: arial;
+	letter-spacing: 2%;
+}
+#missao{
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding: 1%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+#missao h2{
+	margin-top: 4%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: both;
+	color: #007C7E;
+	font-family: 'Bree Serif', serif;
+	font-size:200%;
+}
+#missao p{
+	margin-left: 9%;
+	margin-right: 9%;
+	text-align: justify;
+	font-size: 100%;
+	text-indent: 1%;
+	padding: 2%;
+	font-family: arial;
+	letter-spacing: 2%;
+}
+#visao{
+	float: right;
+	width: 33%;
+	text-align: center;
+	padding: 1%;
+	margin-top: 3.40%;
+}
+#visao h2{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	clear: both;
+	color: #007C7E;
+	font-family: 'Bree Serif', serif;
+	font-size: 200%;
+}
+#visao p {
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom: 2%;
+	text-align: justify;
+	font-size: 100%;
+	text-indent: 1%;
+	padding: 2%;
+	font-family: arial;
+	letter-spacing: 2%;
+}
+#topo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 0.30%;
+	clear: both;
+}
+#footer {
+	background-color: rgba(75, 83, 91, 0.2);
+	height: 340px;
+	clear: both;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+#lista{
+	float: left;
+	padding-top: 5%;
+}
+#lista h5{
+	padding-left: 10px;
+	border-left: 3px solid white;
+	padding-bottom: 6px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #474545;
+	font-family: 'Bree serif'
+}
+#lista ul{
+	list-style-type: none;
+	margin-bottom: 40%;
+}
+#lista ul li a{
+	color: #474545;
+	text-decoration: none;
+}
+#lista ul li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#lista ul li:hover{
+	padding: 3px 0;
+	margin-left: 8px;
+	font-weight: 700;
+}
+#icons img{
+	float: right;
+	width: 5%;
+	margin-top: 10%;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+	margin-right: 5%;
+}
+#icons img:hover{
+	width: 5.60%;
+}
+hr{
+	clear: both;
+}
+#ident p{
+	text-align: center;
+	color: black;
+}
+
+
